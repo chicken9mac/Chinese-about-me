@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About me</title>
+    <style>
+         .header {
+        background-color: #f6960f;
+        color: white;
+        text-align: center;
+        padding: 25px 0px;
+        margin: 0;
+        font-weight: bolder;
+        font-size: 6vw;
+    }
+        .text {
+            text-align: center;
+            margin: 15px;
+            font-weight: bold;
+            font-size: 2.7vw;
+            max-width: auto;
+            margin: auto; 
+        }
+        .image-container{
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            margin-left: auto;
+        }
+        img {
+            max-width: 80%;
+            min-width: 25vh;
+            height: auto;
+            flex-shrink: 0;
+        }
+    .info-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:0px;
+        max-width: 95%;
+        margin: auto 4%;
+
+    }
+    @media (max-width: 600px) {
+    .image-container img {
+        max-width: 95%;
+    }
+    .info-row {
+    flex-direction: column;
+    text-align: center;
+  }
+}       
+    body{
+        background-color: rgb(125, 238, 255);
+        margin: 0;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="header">我</h1>
+    <h2 style="padding-bottom: 30px; margin-bottom: 80px;" class="header">Malek Abdoh  مالك عبده</h2>
+    <div class ="info-row">
+    <p class="text">名字: Malek Abdoh مالك عبدوه míng zi: Malek Abdoh مالك عبدوه</p>
+    <div class="image-container">  
+        <img src="malek_caligraphy.png" alt="malek_caligraphy">
+  </div>
+  </div>
+    <div class ="info-row">
+    <p class="text">我是巴勒斯坦人 wǒ shì bā lè sī tǎn rén</p>
+        <div class="image-container">  
+        <img src="Flag_of_Palestine.png" alt="Flag_of_Palestine">
+  </div>
+  </div>
+    <div class ="info-row">
+    <p class="text">我的电话号码五七一四六四二五七七 Wǒ de diànhuà hàomǎ wǔqīyīsìliùsì'èrwǔqīqī</p>
+        <div class="image-container">  
+        <img src="phone.png" alt="phone">
+  </div>
+  </div>
+</body>
+</html>
